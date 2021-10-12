@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+.container {
+  width: 100%;
+}
+.center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.header {
+  padding: 2rem 9rem 0rem 7rem;
+  display: flex;
+  align-items: center;
+  min-height: 3.25rem;
+  width: 100%;
+  justify-content: space-between;
+}
+#logo {
+  width: 4rem;
+}
+#aboutBtn {
+  margin-right: 2rem;
+  height: 2rem;
+  border-radius: 290486px;
+  padding-left: calc(1em + 0.25em);
+  padding-right: calc(1em + 0.25em);
+  color: #7510f7;
+  border-color: #7510f7;
+  background-color: transparent;
+}
+#aboutBtn:hover {
+  color: white;
+  background-color: #7510f7;
+}
+
+#fs-dev-hl {
+  font-size: 2.5rem;
+  line-height: 5rem;
+}
+#fs-dev-sub {
+  font-weight: lighter;
+  color: #7510f7;
+}
+#avatar-img {
+  margin: 2rem 0 6rem 0;
+  border-radius: 6rem;
+}
+#intro-section {
+  background-color: #7510f7;
+}
+#intro-box {
+  color: white;
+  margin: 7rem 22rem 11rem 22rem;
+  width: 30%;
+}
+#intro-hl {
+  margin-bottom: 1.5rem;
+}
+#intro-sub {
+  font-weight: lighter;
+  line-height: 1.3rem;
+}
+#skills-box {
+  height: 30rem;
+  width: 70%;
+  border: silver 0.5px solid;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  background-color: white;
+  margin: -7rem 0rem 5rem 0rem;
+}
