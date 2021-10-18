@@ -48,8 +48,9 @@
 }
 #avatar-img {
   margin: 2rem 0 6rem 0;
-  border-radius: 6rem;
+  border-radius: 13rem;
   border: 1px solid #7510f7;
+  width: 16rem;
 }
 #intro-section {
   background-color: #7510f7;
@@ -121,6 +122,13 @@
   width: 80%;
 }
 
+#modal-text {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 35px;
+}
+
 /* The Close Button */
 .close {
   color: #aaaaaa;
@@ -145,4 +153,15 @@
   background-color: #7510f7;
   color: white;
   font-size: 1.25rem;
+}
+.fa-basketball-ball {
+  color: rgba(255, 112, 60, 0.8);
+  margin-left: 0.3rem;
+}
+.fa-flag-checkered {
+  color: #000;
+  margin: 0 0.3rem 0.3rem 0.3rem;
+}
+.fa-keyboard {
+  margin: 0 0.3rem 0.3rem 0.3rem;
 }
