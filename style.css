@@ -107,14 +107,23 @@
   font-weight: lighter;
   line-height: 1.3rem;
 }
-#skills-box {
-  height: 30rem;
+.hovering-box {
   width: 70%;
   border: silver 0.5px solid;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 11px;
   background-color: white;
+}
+.hover-up {
   margin: -7rem 0rem 5rem 0rem;
+}
+.mb {
+  margin-bottom: 5rem;
+}
+.proj-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 #fs-developer {
   margin: 0 auto;
